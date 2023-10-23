@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+html,
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00DCAA;
+    height: 51px;
+}
+
+.content {
+    margin: 0px 30px;
+}
+
+.title {
+    font-family: outfit;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+p {
+    font-family: outfit;
+}
+
+#boton {
+    background-color: #00DCAA;
+    font-family: outfit;
+    color: #FFFFFF;
+    border-radius: 7px;
+    height: 50px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.img-gift {
+    height: 40px;
+}
+
+#card-home {
+    background-color: #FAFAFA !important;
+    border: 1px solid #F6F6F6;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: #FAFAFA;
+    margin-top: 35px;
+    padding: 0px 30px;
+}
+
+.icono-footer {
+    height: 26px;
+    color: #D9D9D9;
+}
+
+.div-img-select {
+    border-bottom: #00DCAA solid 2px;
+    padding-bottom: 10px;
+    margin-bottom: -5px;
+}
+
+#progress {
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress-item {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 0;
+    animation: .4s ease-out reverse;
+}
+
+.progress-item::after {
+    content: attr(data-value);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    background: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.to {
+    color: #1D1D1D;
+    text-decoration: underline;
+    font-family: outfit;
+    font-weight: bold;
+}
+
+.span-bold {
+    font-family: outfit;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* Retos */
+.p-retos {
+    font-family: outfit;
+    font-weight: bold;
+    font-size: 600;
+}
+
+.content-reto {
+    display: flex;
+    justify-content: center;
+}
+
+#boton-reto {
+    height: 29px;
+    border-radius: 20px;
+    background-color: #00DCAA;
+    color: white;
+}
+
+#boton-reto-normal {
+    height: 29px;
+    border-radius: 20px;
+    border: #1D1D1D solid 2px;
+}
+
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-top: 20px;
+    /* margin-bottom: 120px; */
+}
+
+.elemento1 {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    background-color: #1D1D1D;
+    width: 244px;
+    height: 327px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+}
+
+.elemento {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px;
+    padding: 5px 0px;
+    background-color: #F6F6F6;
+    width: 244px;
+    height: 327px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+}
+
+.h4-reto {
+    color: white;
+    margin-top: -20px;
+}
+
+#boton-reto-card-nornal {
+    background-color: #FFFFFF;
+    font-family: outfit;
+    color: #1D1D1D;
+    border-radius: 7px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.div-img{
+    width: 200px;
+margin-top: 10px;   
+
+}
