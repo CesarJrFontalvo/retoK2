@@ -63,6 +63,7 @@ footer {
     background-color: #FAFAFA;
     margin-top: 35px;
     padding: 0px 30px;
+    align-self: flex-end;
 }
 
 .icono-footer {
