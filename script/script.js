@@ -29,14 +29,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // Agregar un evento de clic al botón "Pendientes"
     pendientesButton.addEventListener("click", function () {
         // Ocultar todos los elementos
-        elementos.forEach(function (elemento) {
+        elementos1.forEach(function (elemento) {
             elemento.style.display = "none";
         });
 
         // Mostrar solo los elementos con la clase "pendiente"
-        const elementosPendientes = document.querySelectorAll(".pendiente");
+        const elementosPendientes = document.querySelectorAll(".elemento");
         elementosPendientes.forEach(function (elemento) {
-            elemento.style.display = "block";
+            elemento.style.display = "flex";
+
         });
     });
 
@@ -48,17 +49,20 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         // Mostrar solo los elementos con la clase "completado"
-        const elementosCompletados = document.querySelectorAll(".completado");
+        const elementosCompletados = document.querySelectorAll(".elemento1");
         elementosCompletados.forEach(function (elemento) {
-            elemento.style.display = "block";
+            elemento.style.display = "flex";
         });
     });
 
     // Agregar un evento de clic al botón "Todos"
     todosButton.addEventListener("click", function () {
         // Mostrar todos los elementos
+        elementos1.forEach(function (elemento) {
+            elemento.style.display = "flex";
+        });
         elementos.forEach(function (elemento) {
-            elemento.style.display = "block";
+            elemento.style.display = "flex";
         });
     });
 });
